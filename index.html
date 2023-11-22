@@ -13,10 +13,10 @@
 
             <nav>
                 <ul>
-                    <li><a href="#about_me"></a>About Me</li>
-                    <li><a href="#projects"></a>Projects</li>
-                    <li><a href="#contacts"></a>Contacts</li>
-                    <li><a href="#hire_me"></a>Hire Me</li>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#hire_me">Hire Me</a></li>
                 </ul>
             <nav>
     </header>
@@ -103,24 +103,20 @@
                 <div id="section_4_container_forms">
 
                     <form action="#">
-                        <label for="email_form">
+                        <label>
                             <input type="text" placeholder="Email...">
                         </label>
-                    </form>
 
-                    <form action="#">
-                        <label for="password_form">
+                        <label>
                             <input type="text" placeholder="Password...">
                         </label>
-                    </form>
-
-                    <form action="#">
-                        <label for="message_form">
-                            <input type="text" placeholder="Message...">
+ 
+                        <label>
+                            <textarea id="last_input" type="text" placeholder="Message..." ></textarea>
                         </label>
                     </form>
 
-                    <button>Contact</button>
+                    <button id="button_form">Contact</button>
                     
                 </div>
 
@@ -139,9 +135,18 @@
         <div id="footer_container">
             <div id="footer_info">
                 <div id="footer_email">
-                    <span class="logo">UniDesign</span>
+                    <div>
+                        <span class="logo">UniDesign</span>
+                    </div>
+
                     
-                    <span>Email <span>Subscribe</span></span>
+                    <form action="#">
+                        <label id="email_form_label">
+                            <input type="text" placeholder="Email" id="email_form" >
+                            <button id="button_subscribe">Subscribe</button>
+                        </label>
+                    </form>
+                    <!-- <span>Email <span>Subscribe</span></span> -->
                     
                 </div>
 
@@ -170,14 +175,24 @@
                 </div>
             </div>
 
+            <hr>
+
             <div id="footer_references">
-                <span>CopyRighted 2020-2023   All Rights Reserved.</span>
+
+
+
+                <div id="CopyRight">
+                    <span>CopyRighted 2020-2023 </span>
+                    
+                    <span> All Rights Reserved.</span>
+                </div>
+                 
                 
                 <ul id="footer_social_networks">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
+                    <li><a href="https://www.youtube.com/"><img src="./assets/images/youtube.png" alt="youtube"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="./assets/images/instagram.png" alt="instagram"></a></li>
+                    <li><a href="https://www.facebook.com/"><img src="./assets/images/facebook.png" alt="facebook"></a></li>
+                    <li><a href="https://www.linkedin.com/"><img src="./assets/images/linkedin.png" alt="linkedin"></a></li>
                 </ul>
             </div>
 
